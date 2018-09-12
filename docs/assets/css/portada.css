@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amaranth:700');
 @import url('https://fonts.googleapis.com/css?family=Bevan');
 @import url('https://fonts.googleapis.com/css?family=Squada+One');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Ruslan+Display');
 
 
 
@@ -67,13 +68,15 @@ h2.marca-logo {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding-right: 20rem;
+    padding-right: 30rem;
 }
 
-.news-column.second {
+.news-column-second {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    padding-right: 2rem;
+    
 }
 
 .news{   }
@@ -94,7 +97,19 @@ h2.marca-logo {
 
 
 .car-name {
-    
+    color: white;
+    font-family: 'Ruslan Display', cursive;
+
+}
+
+.footer-container {
+    padding-top: 57rem;
+}
+
+.footer-text{
+    color: #e9e8e8;
+    font-size: 3.2rem;
+    font-family: 'Libre Barcode 128 Text', cursive;
 }
 
 /*imagen de fondo */
