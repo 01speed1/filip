@@ -79,16 +79,17 @@ h2.marca-logo {
     
 }
 
-.news{   }
+.news{ }
 
-.news-title {
+h3.news-title {
+    margin: 0px;
     font-size: 3rem;
     font-family: 'Amaranth', sans-serif;
     color: #e0bf04;
     text-shadow: 0 0 4px  black;
 }
 
-.new-text {
+.news-content {
     font-size: 1.3rem;
     font-family: 'Squada One', cursive;
     color: #272727;
