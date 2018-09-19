@@ -9,51 +9,85 @@
 <body>
 
     <form action="">
-        <label for="">Nombre</label>
-        <input type="text">
+        <label 
+            for="f_nombre" 
+            title="tu nombre"
+            aria-label="Escribe tu nombre">Nombre</label>
+        <input id="f_nombre" type="text" aria-required="true">
 
         <br>
 
-        <label for="">Apellido</label>
-        <input type="text">
+        <label 
+            for="f_apellidos" 
+            title="tu apellido"
+            aria-label="Escribe tu apellido">Apellido</label>
+        <input id="f_apellidos" type="text" aria-required="true">
 
         <br>
 
-        <label for="">correo</label>
-        <input type="email" name="" id="">
+        <label 
+            for="f_email" 
+            title="tu correo electronico"
+            aria-label="Escribe tu correo electronico">correo</label>
+        <input id="f_email" type="email" name="" >
 
         <br>
 
-        <label for="">Telefono</label>
-        <input type="tel" name="" id="">
+        <label 
+            for="f_telefono" 
+            title="tu telefono"
+            aria-label="escribe tu numero telefonico">Telefono</label>
+        <input id="f_telefono" type="tel" name="" >
 
         <br>
 
-        <label for="">edad</label>
-        <input type="number" name="" id="">
+        <label 
+            for="f_edad" 
+            title="Tu edad"
+            aria-label="Escribe tu edad">edad</label>
+        <input id="f_edad" type="number" name="" >
 
-        <label for="">Genero</label>
+        <fieldset>
+                <legend> Seleccione genero  </legend>
+            <label 
+                for="f_genero" 
+                title="Tu genero"
+                aria-label="Selecciona tu genero">Genero</label>
+            <br>
+            <input type="radio" name="" id="f_genero" value="Hombre"> <label for="">Hombre</label>
+            <br>
+            <input type="radio" name="" id="f_genero" value="Mujer"> <label for="">Mujer</label>
+        </fieldset>
+
+
         <br>
-        <input type="radio" name="" id="genero" value="Hombre"> <label for="">Hombre</label>
-        <br>
-        <input type="radio" name="" id="genero" value="Mujer"> <label for="">Mujer</label>
+
+        <label 
+            for="f_date" 
+            title="tu fecha de nacimiento"
+            aria-label="Selecciona tu fecha de nacimiento "> Fecha nacimiento </label>
+        <input id="f_date" type="date" name="">
 
         <br>
 
-        <label for="">Fecha nacimiento</label>
-        <input type="date" name="" id="">
-
-        <br>
-
-        <label for="">Color favorito</label>
-        <input type="color" name="" id="">
+        <label 
+            for="f_color" 
+            title="Tu color favorito"
+            aria-label="Tu color favorito">Color favorito</label>
+        <input type="color" name="" id="f_color">
 
         <br>  
 
-        <label for="">Ciudad</label>
-        <select name="" id="">
+        <label 
+            for="f_ciudad" 
+            aria-label="Selecciona la ciudad donde vives"
+            aria-labelledby=""
+            title="tu ciudad"> Ciudad </label>
+        <select id="f_ciudad">
+            <optgroup label="ciudades disponibles para seleccionar">
             <option value="">Bogota</option>
             <option value="">La Dorada</option>
+            </optgroup>
         </select>
 
     </form>
