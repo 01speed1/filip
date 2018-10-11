@@ -5,9 +5,6 @@
 @import url('https://fonts.googleapis.com/css?family=Squada+One');
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Ruslan+Display');
 
-
-
-
 /*estructura portada*/
 .portada-container {
     height: 1080px ; 
@@ -20,7 +17,7 @@
     border:1px solid #ccc;
     display: flex;
     flex-direction: column;
- }
+}
 
 .portada-container > * { position: absolute; }
 
