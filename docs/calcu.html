@@ -10,30 +10,40 @@
 <body>
     <div class="calculadora-container">
         <div class="calculadora-diplay">
-            0
+            <div id="calculadora-diplay-number" class="calculadora-diplay-number" value="0">
+                0
+            </div>
         </div>
         <div class="calculadora-buttons-container">
-            <div class="row-buttons">
-                <button id="1" class="calculadora-button" value="1">1</button>
-                <button id="2" class="calculadora-button" value="2">2</button>
-                <button id="3" class="calculadora-button" value="3">3</button>
+            <div class="calculadora-numbers">
+                    <div class="row-buttons">
+                        <button id="1" class="calculadora-button" value="1">1</button>
+                        <button id="2" class="calculadora-button" value="2">2</button>
+                        <button id="3" class="calculadora-button" value="3">3</button>
+                    </div>
+                    <div class="row-buttons">
+                        <button id="4" class="calculadora-button" value="4">4</button>
+                        <button id="5" class="calculadora-button" value="5">5</button>
+                        <button id="6" class="calculadora-button" value="6">6</button>
+                    </div>
+                    <div class="row-buttons">
+                        <button id="7" class="calculadora-button" value="7">7</button>
+                        <button id="8" class="calculadora-button" value="8">8</button>
+                        <button id="9" class="calculadora-button" value="9">9</button>
+                    </div>
+                    <div class="row-buttons">
+                        <button id="0" class="calculadora-button" value="0">0</button>
+                        <button id="clean-button" class="calculadora-button" value="clean">Clean</button>
+                    </div>
             </div>
-            <div class="row-buttons">
-                <button id="4" class="calculadora-button" value="4">4</button>
-                <button id="5" class="calculadora-button" value="5">5</button>
-                <button id="6" class="calculadora-button" value="6">6</button>
-            </div>
-            <div class="row-buttons">
-                <button id="7" class="calculadora-button" value="7">7</button>
-                <button id="8" class="calculadora-button" value="8">8</button>
-                <button id="9" class="calculadora-button" value="9">9</button>
-            </div>
-            <div class="row buttons">
-                <button id="+" class="calculadora-button">+</button>
-                <button id="-" class="calculadora-button">-</button>
-                <button id="x" class="calculadora-button">x</button>
-                <button id="/" class="calculadora-button">/</button>
-                <button id="=" class="calculadora-button">=</button>
+            <div class="calculadora-operations">
+                <div class="row-buttons">
+                    <button id="+" class="calculadora-button" value="+" >+</button>
+                    <button id="-" class="calculadora-button" value="-" >-</button>
+                    <button id="x" class="calculadora-button" value="x" >x</button>
+                    <button id="/" class="calculadora-button" value="/" >/</button>
+                    <button id="=" class="calculadora-button" value="=" >=</button>
+                </div>
             </div>
         </div>
     </div>
