@@ -10,7 +10,7 @@
     height: 1080px ; 
     width: 1100px ;
     position: relative;
-    border:dodgerblue;
+    /* border:dodgerblue; */
     float:left;
     margin:.5em 10px .5em 0;
     overflow:hidden; /* IMPORTANTE */
@@ -23,12 +23,14 @@
 
 /*logo marca*/
 .marca-container { 
+    width: 100%;
     display: flex;
+    align-items: center;
     justify-content:space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+    
+    /* flex-wrap: wrap; */
 }
-
-.marca-logo {}
 
 h1.marca-logo {
     margin-top: 20px;
@@ -57,26 +59,26 @@ h2.marca-logo {
 
 .news-container{ 
     display: flex;
-    padding-top: 20rem;
+    top: 20rem ;
     justify-content: flex-start;
 }
 
 .news-column {
+    width: 47% ;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding-right: 30rem;
+    /* padding-right: 30rem; */
 }
 
 .news-column-second {
+    width: 53%;
     display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    padding-right: 2rem;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+    right: 2rem;
     
 }
-
-.news{ }
 
 h3.news-title {
     margin: 0px;
@@ -94,17 +96,26 @@ h3.news-title {
 }
 
 
-.car-name {
+span.car-name {
     color: white;
+    width: 50%;
+    font-size: 2.5rem;
+    align-self:flex-end ;
+    /* position: right; */
     font-family: 'Ruslan Display', cursive;
 
 }
 
 .footer-container {
-    padding-top: 57rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    top: 57rem;
 }
 
 .footer-text{
+    
     color: #e9e8e8;
     font-size: 3.2rem;
     font-family: 'Libre Barcode 128 Text', cursive;
@@ -112,8 +123,7 @@ h3.news-title {
 
 /*imagen de fondo */
 .portada-img-fondo{
-    /*height: 700px ; 
-    width: 450px ;*/
+    left: -80px;
     overflow: hidden; 
     margin: 0 auto;
     padding: 0;
